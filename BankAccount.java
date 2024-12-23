@@ -16,7 +16,7 @@ public class BankAccount {
 		this.address = address;
 		this.mobile = mobile;
 		Panno = panno;
-		System.out.println("account got opened with amount ");
+		System.out.println("account got opened with amount "+this.balance);
 	}
 	@Override
 	public String toString() {

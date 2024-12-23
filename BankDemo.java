@@ -2,17 +2,19 @@ package Dec23;
 
 public class BankDemo {
 
+
 	public static void main(String[] args) {
 
-		BankDemo bankAcc = new BankDemo(1000, "Raju", 5000,"hyd","9845098450","NQP1964D");
+		BankAccount bank = new BankAccount(14221, "Raju", 10000,"hyd","9845098450","NQP1964D");
 		
-		System.out.println(bankAcc);
+		System.out.println(bank);
 		
-		bankAcc.deposit(5000);
-		bankAcc.checkBalance();
+		bank.deposit(5000);
+		bank.checkbalance();
 		
 		
-		bankAcc.withDraw(4000);
-		bankAcc.checkBalance();
+		bank.withdraw(4000);
+		bank.checkbalance();
 	}
-}
+
+	}
